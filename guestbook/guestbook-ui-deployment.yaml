@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: olsynt/guestbook:0.1
+      - image: olsynt/guestbook:0.2
         name: guestbook-ui
         ports:
         - containerPort: 80
